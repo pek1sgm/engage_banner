@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; PowerPoint Export-Auflösung auf 600 DPI setzen
+; (Standard ist 96 DPI = nur 1280x720 bei Widescreen)
+; Bei 600 DPI: 8000x4500 px — maximale Ausgangsauflösung
+;
+; Gilt für: PowerPoint 2016, 2019, 2021, Microsoft 365
+; Pfad: HKCU\Software\Microsoft\Office\16.0\PowerPoint\Options
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\PowerPoint\Options]
+"ExportBitmapResolution"=dword:00000258
